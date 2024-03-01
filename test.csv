@@ -1,0 +1,514 @@
+key,en-US,fr,nl,context
+bb-session-timeout-widget.header,Session timeout header,,,Header of the session timeout modal
+bb-session-timeout-widget.body,Session timeout body,,,Body text of the session timeout modal
+bb-session-timeout-widget.body.minutes,"
+            Session timeout minutes remaining",,,"Formatted time for minutes only in session timeout
+            modal"
+bb-session-timeout-widget.body.seconds,"
+            Session timeout seconds remaining",,,"Formatted time for seconds only in session timeout
+            modal"
+bb-session-timeout-widget.body.full,"
+            Session timeout full time remaining",,,"Formatted time for full time in session timeout
+            modal"
+bb-session-timeout-widget.body.continue.business,"
+          Session timeout body",,,Body text of the session timeout modal
+bb-session-timeout-widget.logout,Logout button,,,Body text of the button that logs the user out
+bb-session-timeout-widget.continue,"
+          Continue session button",,,Text of the button that continues the user session
+stepup-modal.title,Authorization required,,,Authorization required modal title
+stepup-modal.invalid-pin,Invalid pin,,,Stepup modal invalid pin error
+stepup-modal.subtitle,Type your personal secure code to continue,,,Modal subtitle
+stepup-modal.btn.cancel,Cancel,,,Cancel button label
+stepup-modal.btn.confirm,Confirm,,,Confirm button label
+bb-layout.topbar.skip_to_content.button,"
+        Move focus to beginning of content",,,"Value for aria-label saying that this button will move the focus to the
+        beginning of the content
+      ""
+      aria-label=""skip to content""
+      class=""bb-layout__skip-to-content""
+      (click)=""$any($event).view?.window?.document?.querySelector('[role=\'main\']')?.focus()""
+      i18n=""
+        Skip to content|Text to enforce the user to click to put focus on the main content
+        section"
+bb-layout.sidebar_toggler,Sidebar Toggler,,,Button for toggling sidebar state
+bb-layout.sidebar_toggler,Sidebar Toggler,,,Button for toggling sidebar state
+ach-positive-pay.configuration.frequency.new-rejection-reason,New Reason,,,Translation for New Rejection Reason
+ach-positive-pay.configuration.frequency.bi-weekly,Bi Weekly,,,Configuration for payment frequency of ACH filter rule - BiWeekly
+ach-positive-pay-journey.configuration.payment-type.ach-checking,ACH Checking,,,Configuration for payment type of ACH  rule - ACH Checking
+ach-positive-pay.heading.title,ACH positive pay title,,,Title for the heading
+ach-positive-pay.tab.exceptions.count.message,# of active exceptions require managemenet,,,Message red by screen reader when user is focused on Exceptions tab
+ach-positive-pay.tab.exceptions.count.error,Could not retrieve exceptions count,,,Message read by screen reader when retrieving active exceptions fail
+ach-positive-pay.tab.rules,Rules,,,"Title for tab with ""ACH Rules"" list"
+ach-postive-pay.tab.exceptions,Exceptions,,,"Title for tab with ""ACH Exceptions"" list"
+ach-positive-pay.expiration-date.label,Expiration date,,,Expiration date for new ACH rule
+ach-positive-pay.expiration-date.optional,Optional,,,Support text for expiration date label stating it is optional
+ach-positive-pay-journey.end-date.invalid-date-error,Invalid date.,,,Error message when end date has invalid date format
+ach-positive-pay-journey.end-date.less-date-error,Expiration date should be greater than or equal to start date.,,,Error message when end date is from the past format
+ach-positive-pay.originator-id.label,Originator ID,,,Label for originator ID
+ach-positive-pay-journey.originator-id.required-error,Originator ID is required.,,,Error message when originator ID is required
+ach-positive-pay-journey.originator-id.pattern-N-digits-only-error,Originator ID should be a ${requiredDigits}:requiredDigits: digit number.,,,Error message when originator ID does not have requred number of digits
+ach-positive-pay.originator-name.label,Originator name,,,Label for originator name
+ach-positive-pay.originator-name.optional,Optional,,,Support text for originator name label stating it is optional
+ach-positive-pay.originator-name.placeholder,Enter Originator name,,,Placeholder for the Originator name input field
+ach-positive-pay.payment-type-control.label,Payment type,,,Label for ACH rule's payment type field
+ach-positive-pay.payment-type-selector-placeholder,Select payment type placeholder,,,Text displayed on empty Payment Type selector
+ach-positive-pay-journey.payment-type.required-error,Payment type is required.,,,Error message when payment type is not selected
+ach-positive-pay-journey.ach-new-rule-button.type-filter,New ACH filter,,,New ACH filter - Type of ach rule
+ach-positive-pay-journey.ach-new-rule-button.type-blocker,New ACH blocker,,,New ACH blocker - Type of ach rule
+ach-positive-pay.standard-entry-class.label,Standard entry class,,,Standard entry class for new ACH rule
+ach-positive-pay-journey.standard-entry-class.required-error,SEC is required.,,,Error message when Standard Entry Class (SEC) is not set
+ach-positive-pay.start-date.label,Start date,,,Start date for new ACH rule
+ach-positive-pay-journey.start-date.required-error,Start date is required.,,,Error message when start date is missing
+ach-positive-pay-journey.start-date.invalid-date-error,Invalid date.,,,Error message when start date has invalid date format
+ach-positive-pay-journey.start-date.less-date-error,Start date cannot be in the past.,,,Error message when start date is from the past format
+ach-positive-pay.configuration.frequency.new-rejection-reason,New Reason,,,Translation for New Rejection Reason
+ach-positive-pay.configuration.rejectReason.biggerAmount,Bigger amount,,,Rejection Reason - Bigger amount
+ach-positive-pay-journey.configuration.rejectReason.alreadyPaid,Already paid,,,Rejection Reason - Already paid
+ach-positive-pay.configuration.rejectReason.notAuthorizedOriginator,Not authorized Originator,,,Rejection Reason - Not authorized Originator
+ach-positive-pay.configuration.rejectReason.blockedOriginator,Blocked Originator,,,Rejection Reason - Blocked Originator
+ach-positive-pay.configuration.rejectReason.notAuthorizedSEC,Not authorized SEC,,,Rejection Reason - Not authorized SEC
+ach-positive-pay.configuration.rejectReason.other,Other,,,Rejection Reason - Other
+ach-positive-pay.view-rules.loading.sr-only-text,Loading Rules,,,A11y Loading Text for rules - Loading text read by screen reader when loading rules list
+ach-postive-pay.view-rule-details.loading.sr-only-text,Loading Rule Details,,,A11y Loading text for rule details - Loading text read by screen reader when loading rule details
+ach-positive-pay.validation-errors.invalid-date-range-error,Please provide valid date range,,,Error message when date range is invalid
+ach-positive-pay.view-exceptions.loading.sr-only-text,Loading Exceptions,,,A11y Loading Text for exceptions - Loading text read by screen reader when loading exceptions list
+ach-positive-pay.view-exception-details.loading.sr-only-text,Loading Exception Details,,,A11y Loading Text for exception details - Loading text read by screen reader when loading exception details
+ach-positive-pay.config.error.account.limit.exceed,You tried to select ACH rules from more accounts than it's allowed in one request.,,,Error when number of fetched accounts is greater than in app config
+ach-positive-pay.server.error.duplicated.filter,This ACH filter already exists.,,,Duplicate ACH filter
+ach-positive-pay.server.error.duplicated.blocker,This ACH blocker already exists.,,,Duplicate ACH blocker rule entered
+ach-positive-pay.server.error.incorrect.end.date,Incorrect end date.,,,Incorrect end date.
+ach-positive-pay.configuration.server.error.originator.id,Originator ID must not be empty if block all originators option is not set.,,,Originator ID must not be empty if block all originators option is not set.
+ach-positive-pay.server.error.incorrect.payment.frequency,Incorrect payment frequency.,,,Incorrect payment frequency
+ach-positive-pay.server.error.payment.type,Incorrect ACH payment type.,,,Incorrect ACH payment type
+ach-positive-pay.server.error.incorrect.sec,Incorrect Standard Entry Class.,,,Incorrect Standard Entry Class
+ach-positive-pay.server.error.incorrect.start.date,Incorrect start date.,,,Incorrect start date.
+ach-positive-pay.server.error.forbidden.ach,Insufficient user's permission to ACH Positive Pay.,,,Insufficient user's permission to ACH Positive Pay.
+ach-positive-pay.server.error.originator.null,If block all originators is set originator ID and originator name should not be set.,,,If block all originators is set originator ID and originator name should not be set.
+ach-positive-pay.server.error.originator.wildcard,"Originator ID must not be ""*"".",,,"Originator ID must not be ""*""."
+ach-positive-pay.server.error.rule.already.deleted,Rule not found.,,,Rule not found.
+ach-positive-pay.server.error.incorrect.transaction.date,Transaction date should be before or equal to current date time.,,,Transaction date is later than current date.
+ach-positive-pay-journey.view-rules.table.delete-rule.tooltip.blocker,Delete ACH Blocker,,,Tooltip text shown when hovered on delete button for blocker rule
+ach-positive-pay-journey.view-rules.table.delete-rule.tooltip.filter,Delete ACH Filter,,,Tooltip text shown when hovered on delete button for filter rule
+ach-positive-pay-journey.rule-type.blocker,Blocker,,,Value for BLOCKER Enum
+ach-positive-pay-journey.rule-type.filter,Filter,,,"Value for FILTER Enum"""
+ach-positive-pay.configuration.frequency.bi-weekly,Bi Weekly,,,Configuration for payment frequency of ACH filter rule - BiWeekly
+ach-positive-pay-journey.configuration.frequency.once,Once,,,Configuration for payment frequency of ACH filter rule - Once
+ach-positive-pay-journey.configuration.frequency.weekly,Weekly,,,Configuration for payment frequency of ACH filter rule - Weekly
+ach-positive-pay-journey.configuration.frequency.monthly,Monthly,,,Configuration for payment frequency of ACH filter rule - Monthly
+ach-positive-pay-journey.configuration.frequency.ongoing,Ongoing,,,Configuration for payment frequency of ACH filter rule - Ongoing
+ach-positive-pay-journey.configuration.payment-type.ach-checking,ACH Checking,,,Configuration for payment type of ACH  rule - ACH Checking
+ach-positive-pay-journey.configuration.payment-type.ach-debit,ACH Debit,,,Configuration for payment type of ACH rule - ACH Debit
+ach-positive-pay-journey.configuration.payment-type.ach-credit,ACH Credit,,,Configuration for payment type of ACH rule - ACH Credit
+ach-positive-pay.delete-rule.subtitle,Delete confirmation,,,Prompt asking users if they are sure they want to delete ACH filter/blocker. Rule type is already translated
+ach-positive-pay.delete-rule.delete-button,Delete,,,Button for submitting delete rule
+ach-positive-pay.delete-rule.cancel-button,Cancel,,,Button for canceling entry of new check
+ach-positive-pay.delete-rule.aria-description.part-1.rule-type,Are you sure you want to delete this ACH filter/blocker,,,1st part of ACH rule delete aria description containing question if user is sure to delete the rule. Rule type is already translated
+ach-positive-pay.delete-rule.aria-description.part-2.account,for account ACCOUNT_NAME with number ACCOUNT_NUMBER,,,2nd part of ACH rule delete aria description containing account name and number
+ach-positive-pay.delete-rule.aria-description.part-3.originator-id,and for originator ID ORIGINATOR_ID,,,3rd part of ACH rule delete aria description containing originator ID
+ach-positive-pay.delete-rule.aria-description.part-3.originator-name-if-defined,with originator name ORIGINATOR_NAME,,,3rd part of ACH rule delete aria description containing originator name(if defined)
+ach-positive-pay.delete-rule.aria-description.part-3.originator-all,and for all originators,,,3rd part of ACH rule delete aria description containing all originators text if the ACH blocker was created for all originators
+ach-positive-pay.delete-rule.aria-description.part-4.start-date,starting START_DATE,,,4th part of ACH rule delete aria description containing start date
+ach-positive-pay.delete-rule.aria-description.part-4.expiration-date-if-defined,and expiring END_DATE,,,4th part of ACH rule delete aria description containing expiration date(if defined)
+ach-positive-pay.delete-rule.aria-description.part-5.frequency-and-maximum-amount,with frequency FREQUENCY and maximum amount CURRENCY_CODE AMOUNT,,,5th part of ACH rule delete aria description containing frequency and maximum amount(ACH filters only)
+ach-positive-pay.delete-rule.aria-description.part-6.warning.delete-cannot-be-undone,This action cannot be undone,,,last part of ACH rule delete aria description containing warning that delete cannot be undone
+ach-positive-pay.delete-blocker-notification.header,ACH blocker successfully deleted notification,,,Success notification header for deleted ACH blocker
+ach-positive-pay.delete-filter-notification.header,ACH filter successfully deleted notification,,,Success notification header for deleted ACH filter
+ach-positive-pay.error.default.title,Server Error,,,Message that is displayed when server throws error
+ach-positive-pay.exception-details-modal.title,ACH Exception,,,Title of the ACH exception details header in modal
+ach-positive-pay.exception-details-modal.sr-only.closeModal,close modal button,,,Screen reader text for close icon button
+ach-positive-pay-journey.exception-details-modal.sr-only.exceptionDetails,A11y Exception details text,,,Exception details screen reader text to indicate exception details loaded
+ach-positive-pay-journey.exception-details-modal.exceptions-errors.label.requested,Requeste On,,,Text label for ACH exception requested date
+ach-positive-pay.exception-details-modal.payment-type.header,Payment type header,,,Header for payment type field
+ach-positive-pay.exception-details-modal.sec.header,Standard entry class header,,,Header for standard entry class field
+ach-positive-pay.exception-details-modal.originator-name.header,Originator name header,,,Header for originator name field
+ach-positive-pay.exception-details-modal.originator-id.header,Originator ID header,,,Header for originator ID field
+ach-positive-pay.exception-details-modal.max-amount.header,Maximum amount header,,,Header for Maximum amount field
+ach-positive-pay.exception-details-modal.account.header,Account header,,,Header for account field
+ach-positive-pay.exception.details.buttons.pay,Pay,,,Button label for pay ACH exception action
+ach-positive-pay.exception.details.buttons.reject,Reject,,,Button label for reject ACH exception action
+ach-positive-pay.exception-details-modal.error-state.subtitle,Exception details error state subtitle,,,Subtitle for error state inside ACH exception details modal
+ach-positive-pay.exception-details-modal.error-state.title,Exception details error state title,,,Title for error state inside ACH exception details modal
+ach-positive-pay.exception-decision.button.pay,Pay,,,Label for Pay button on Exception Decision prompt dialog
+ach-positive-pay.exception-decision.confirmation-message.pay,Are you sure you want to pay this ACH Debit/ACH Credit?,,,Message displayed in ACH Exception Pay decision dialog asking user to confirm Pay decision for exception
+ach-positive-pay.exception-decision.button.reject,Reject,,,Label for Reject button on Exception Decision prompt dialog
+ach-positive-pay.exception-decision.confirmation-message.reject,Are you sure you want to reject this ACH Debit/ACH Credit?,,,Message displayed in ACH Exception Reject decision dialog asking user to confirm Reject decision for exception
+positive-pay.exception-decision.rejectionReasonDropdown.label,Rejection reason label,,,Label for rejection reason dropdown
+positive-pay.exception-decision.rejectionReasonDropdown.placeholder,Rejection reason placeholder,,,Placeholder for rejection reason dropdown
+ach-positive-pay.exception-decision.success-header.pay,Pay decision for ACH Credit/ACH debit success,,,Success notification header when exception pay was processed
+ach-positive-pay.exception-decision.success-header.reject,Reject decision for ACH Credit/ACH debit success,,,Success notification header when exception reject was processed
+ach-positive-pay.exception-decision.failure-header.pay,Pay decision for ACH Credit/ACH debit failure,,,Failure notification header when exception pay was not processed
+ach-positive-pay.exception-decision.failure-header.reject,Reject decision for ACH Credit/ACH debit failure,,,Failure notification header when exception reject was not processed
+ach-positive-pay.exception-decision.failure-message,Exception decision failure message,,,Failure notification message when exception reject was not processed
+ach-positive-pay.exception-decision.modal-title.pay,Pay ${i18nPaymentType}:translatedPaymentType:?,,,Modal title displayed when Pay ACH Exception Dialog is opened
+ach-positive-pay.exception-decision.modal-tutle.reject,Reject ${i18nPaymentType}:translatedPaymentType:?,,,Modal title displayed when Reject ACH Exception Dialog is opened
+ach-positive-pay-exception-details.decision-form.rejectReason.required-error,Rejection reason is required,,,Error message when rejection reason is not selected
+ach-positive-pay.view-exceptions.accounts-empty-state.title,Account list empty state title,,,Title for account list empty state inside ACH exceptions view
+ach-positive-pay.view-exceptions.accounts-empty-state.subtitle,Account list empty state subtitle,,,Subtitle for account list empty state inside ACH exceptions view
+ach-positive-pay.view-exceptions.error-state.subtitle,Exception list error state subtitle,,,Subtitle for exception list error inside ACH exceptions view
+ach-positive-pay.view-exceptions.default-error-state.subtitle,Default error subtitle,,,Subtitle for default error inside ACH exceptions view
+ach-positive-pay.view-exceptions.default-error-state.title,Default error title,,,Title for default error state inside ACH exceptions view
+ach-positive-pay.view-exceptions.empty-state-unfiltered.title,No Unresolved Exceptions,,,Exception list empty state title when loaded without any search or filter
+ach-positive-pay.view-exceptions.empty-state-unfiltered.subtitle,"Once we register any issues with ACH Payment we receive, we’ll raise exception and it will appear in this list.",,,Exception list empty state subtitle when loaded without any search of filter
+ach-positive-pay.view-rules.search-input-placeholder,Search rules placeholder,,,Placeholder displayed on search input box
+ach-positive-pay.view-rules.search-input-button-label,Search rules button label,,,Hidden label for search button alongside search input box
+ach-positive-pay.view-exceptions.list.exception-errors.sr-only,Exception Errors label,,,Label read out by screen readers when reading exception errors
+ach-positive-pay.view-exceptions.list.account-name.sr-only,Account name label,,,Text read by screen readers for payee name label
+ach-positive-pay.view-exceptions.list.account-number.label.sr-only,Account Number,,,Label read out by screen reader when user navigates to account number line in Account Cell
+ach-positive-pay.view-exceptions.list.payment-type.sr-only,Payment type label,,,Text read by screen readers for payment type label
+ach-positive-pay.view-exceptions.list.sec.sr-only,Standard Entry Class label,,,Text read by screen readers for Standard Entry Class label
+ach-positive-pay.view-exceptions.list.originator-name.label.sr-only,Originator name,,,Label read out by screen reader when user navigates to Originator name line in Originator cell
+ach-positive-pay.view-exceptions.list.originator-id.sr-only,Originator ID label,,,Text read by screen readers for Originator ID label
+ach-positive-pay.view-exceptions.list.transaction-date.sr-only,Transaction Date,,,Label read out by screen reader when user navigates to Transaction Date line
+ach-positive-pay.view-exceptions.list.maximum-amount.label.sr-only,Amount,,,Text read by screen readers for Amount label
+ach-positive-pay.view-exceptions-table.caption,List of exceptions,,,Description for exceptions table
+ach-positive-pay.view-exceptions-table.column.account,Account,,,Column name for exception account
+ach-positive-pay.view-exceptions-table.column.payment-type,Payment type,,,Column name for exception payment type
+ach-positive-pay.view-exceptions-table.column.sec.sr-only,SEC,,,Column name for standard entry class read by screen readers
+ach-positive-pay.view-exceptions-table.column.originator.id.name,Originator ID and name,,,Column name for originator id and name
+ach-positive-pay.view-exceptions-table.column.amount,Amount,,,Column name for exception amount
+ach-positive-pay.view-exceptions-table.column.request-date,Request date,,,Column name for exception request date
+ach-positive-pay.view-exceptions-table.column.exception,Exception reasong,,,Column name for exception reason
+ach-positive-pay.view-exceptions-table.account-name.label.sr-only,Account name,,,Label read out by screen reader when user navigates to account name line in Account Cell
+ach-positive-pay.view-exceptions-table.account-number.label.sr-only,Account Number,,,Label read out by screen reader when user navigates to account number line in Account Cell
+ach-positive-pay.view-exceptions-table.originator-name.label.sr-only,Originator name,,,Label read out by screen reader when user navigates to Originator name line in Originator cell
+ach-positive-pay.view-exceptions-table.originator-id.label.sr-only,Originator Id,,,Label read out by screen reader when user navigates to Originator Id line in Originator cell
+ach-positive-pay.new-blocker-rule.title,New ACH Blocker,,,Title of the New Blocker form in modal
+ach-positive-pay.new-blocker-rule.account-selector.label,Account label,,,Label for account selector field
+ach-positive-pay.new-blocker-rule.account-selector-placeholder,Select account placeholder,,,Text displayed on empty Account Selector
+ach-positive-pay.new-blocker-rule.account.required-error,Account is required.,,,Error message when account is required
+ach-positive-pay.new-blocker-rule.block-all.label,Block all,,,Label for blocker rule's block all checkbox
+ach-positive-pay.new-blocker-rule.block-all.originators,originators,,,Part of block all label which additionally reads Originator
+ach-positive-pay.new-blocker-rule.submit-button,Submit form,,,Button for submitting new blocker rule
+ach-positive-pay.new-blocker-rule.cancel-button,Cancel,,,Button for canceling entry of new check
+ach-positive-pay.new-blocker.success-notification.header,New ACH blocker was submitted successfully notification,,,Success notification header for ACH blocker rule submission
+ach-positive-pay.new-filter-rule.account-selector.label,Account label,,,Label for account selector field
+ach-positive-pay.new-filter-rule.account-selector.placeholder,Select account placeholder,,,Text displayed on empty Account Selector
+ach-positive-pay.new-filter-rule.account-selector.required-error,Account is required.,,,Error message when account is missing
+ach-positive-pay.new-filter-rule.payment-frequency.label,Payment frequency,,,Label for new filter rule payment frequency
+ach-positive-pay.new-filter-rule.payment-frequency.select-placeholder,Select,,,Placeholder for payment frequency select element
+ach-positive-pay.new-filter-rule.maximum-amount-label,Maximum amount,,,Label for new filter rule maximum amount
+ach-positive-pay.new-filter-rule.maximum-amount.per-transaction,Per transaction,,,Support text for maximum amount stating this is an amount set per each transaction
+ach-positive-pay.new-filter-rule.submit-button,Submit form,,,Button test for submitting new filter rule
+ach-positive-pay.new-filter-rule.cancel-button,Cancel,,,Button test for canceling entry of new filter rule
+ach-positive-pay-journey.new-filter-rule.payment-frequency.required-error,Payment frequency is required.,,,Error message when payment frequency is not selected
+ach-positive-pay-journey.new-filter-rule.maximum-amount.required-error,Maximum amount is required.,,,Error message when amount is missing
+ach-postivie-pay-journey.new-filter-rule.maximum-amount.invalid-amount-error,Maximum amount is required.,,,Error message when amount is zero
+ach-positive-pay.new-filter.success-notification.header,New ACH filter was submitted successfully notification,,,Success notification header for ACH filter rule submission
+ach-positive-pay.rules.details.sr-only.ruleDetails,A11y Rule details text,,,Rule details screen reader text to indicate rule details loaded
+ach-positive-pay.view-rules.details.payment-type.header,Payment type header,,,Header for payment type field
+ach-positive-pay.view-rules.details.sec.header,Standard entry class header,,,Header for standard entry class field
+ach-positive-pay.view-rules.details.originator-name.header,Originator name header,,,Header for originator name field
+ach-positive-pay.view-rules.details.originator.header,Originator header,,,Header for originator field
+ach-positive-pay.view-rules.details.originator-id.header,Originator ID header,,,Header for originator ID field
+ach-positive-pay.view-rules.details.start-date.header,Start date header,,,Header for start date field
+ach-positive-pay.view-rules.details.expiration-date.header,Expiration date header,,,Header for expiration date field
+ach-positive-pay.view-rules.details.expiration-date.label.not-set.sr-only,Expiration Date. Not set,,,Label read out by screen reader when user navigates to Expiration Date line in Time Period cell and the date is not set
+ach-positive-pay.view-rules.details.frequency.header,Frequency header,,,Header for frequency field
+ach-positive-pay.view-rules.details.max-amount.header,Maximum amount header,,,Header for Maximum amount field
+ach-positive-pay.view-rules.details.account.header,Account header,,,Header for account field
+ach-positive-pay.rule.details.title,ACH filter/blocker,,,Title of the rule details header in modal
+ach-positive-pay.rule.details.sr-only.closeModal,A11y close modal button,,,Screen reader text for close icon button
+ach-positive-pay.view-rules.search-input-placeholder,Search rules placeholder,,,Placeholder displayed on search input box
+ach-positive-pay.view-rules.search-input-button-label,Search rules button label,,,Hidden label for search button alongside search input box
+ach-positive-pay.view-rules-filters.rule-type.placeholder,Placeholder for Type filter (Filter or Blocker),,,Text will be displayed when no value is selected
+ach-positive-pay.view-rules-filters.rule-type.label,Label for Type filter (Filter or Blocker),,,Label will be displayed above the select field
+ach-positive-pay.view-rules-filters.payment-type.placeholder,Placeholder for Payment Type filter,,,Text will be displayed when no value is selected
+ach-positive-pay.view-rules-filters.payment-type.label,Label for Payment Type filter,,,Label will be displayed above the select field
+ach-positive-pay.view-rules-filters.rule-sec.placeholder,Placeholder for Standard Entry Class filter,,,Text will be displayed when no value is selected
+ach-positive-pay.view-rules-filters.rule-sec.label,Label for Standard Entry Class filter,,,Label will be displayed above the select field
+ach-positive-pay.view-rules-filters.entry-date.label,Label for Entry date filter,,,Label will be displayed above the field
+ach-positive-pay.view-rules-filters.rule-frequency.placeholder,Placeholder for Frequency filter,,,Text will be displayed when no value is selected
+ach-positive-pay.view-rules-filters.rule-frequency.label,Label for Frequency filter,,,Label will be displayed above the select field
+ach-positive-pay.view-rules-filters.amount.label,Label for Amount range filter,,,Label will be displayed above two number input fields
+ach-positive-pay.view-rules-filters.amount-min.aria-label,Label for lower value of amount range,,,Label will be read by screen reader
+ach-positive-pay.view-rules-filters.amount-min.placeholder,Placeholder text for lower value field of amount range,,,Text is visible when no value is typed
+ach-positive-pay.view-rules-filters.amount-max.aria-label,Label for upper value of amount range,,,Label will be read by screen reader
+ach-positive-pay.view-rules-filters.amount-max.placeholder,Placeholder text for upper value field of amount range,,,Text is visible when no value is typed
+ach-positive-pay.view-rules-filters.amount.invalidAmountRange,Invalid amount range error.,,,Error message when min amount is greater than max amount
+ach-positive-pay.view-rules-filters.rule-type.filter,Filter,,,Filter type - Label for only filter Type
+ach-positive-pay.view-rules-filters.rule-type.blocker,Blocker,,,Blocker type - Label for only blocker Type
+ach-positive-pay.view-rules.list.rule-type.sr-only,Rule type label,,,Text read by screen readers for rule type label
+ach-positive-pay.view-rules.list.type-blocker,Blocker,,,Type of rule
+ach-positive-pay.view-rules.list.type-filter,Filter,,,Type of rule
+ach-positive-pay.view-rules.list.account-name.sr-only,Account name label,,,Text read by screen readers for payee name label
+ach-positive-pay.view-rules.list.account-number.label.sr-only,Account Number,,,Label read out by screen reader when user navigates to account number line in Account Cell
+ach-positive-pay.view-rules.list.payment-type.sr-only,Payment type label,,,Text read by screen readers for payment type label
+ach-positive-pay.view-rules.list.sec.sr-only,Standard Entry Class label,,,Text read by screen readers for Standard Entry Class label
+ach-positive-pay.view-rules.list.originator-name.label.sr-only,Originator name,,,Label read out by screen reader when user navigates to Originator name line in Originator cell
+ach-positive-pay.view-rules.list.originator-id.sr-only,Originator ID label,,,Text read by screen readers for Originator ID label
+ach-positive-pay.view-rules.list.frequency.sr-only,frequency label,,,Text read by screen readers for frequency label
+ach-positive-pay.view-rules.list.start-date.sr-only,Start Date,,,Label read out by screen reader when user navigates to Start Date line in Time Period cell
+ach-positive-pay.view-rules.list.expiration-date.label.sr-only,Expiration Date,,,Label read out by screen reader when user navigates to Expiration Date line in Time Period cell
+ach-positive-pay.view-rules.list.expiration-date.label.not-set.sr-only,Expiration Date. Not set,,,Label read out by screen reader when user navigates to Expiration Date line in Time Period cell and the date is not set
+ach-positivie-pay.view-rules.list.expired-badge.sr-only.text,This ACH Rule has expired,,,Sentence read out by screen reader only
+ach-positivie-pay.view-rules.list.expired-badge.text,Expired,,,Badge label indicating that the rule has expired (Expiration date is earlier than current date)
+ach-positive-pay.view-rules.list.maximum-amount.label.sr-only,Maximum amount,,,Text read by screen readers for Maximum amount label
+ach-positive-pay.view-rules.table.caption,List of rules,,,Description for rules table
+ach-positive-pay.view-rules.column.account,Account,,,Column name for rule account
+ach-positive-pay.view-rules.column.rule.type,Rule Type,,,Column name for rule type
+ach-positive-pay.view-rules.column.payment.type.sec.sr-only,Payment type and SEC,,,Column name for payment type and standard entry class read by screen readers
+ach-positive-pay.view-rules.column.payment.type.sec,Payment type and SEC,,,Column name for payment type and standard entry class
+ach-positive-pay.view-rules.column.originator.id.name,Originator ID and name,,,Column name for originator id and name
+ach-positive-pay.view-rules.column.time.period,Time period,,,Column name to show rule period
+ach-positive-pay.view-rules.column.frequency,Frequency,,,Column name for frequency of rule
+ach-positive-pay.view-rules.column.maximum.amount,Maximum amount,,,Column name for maximum amount of rule
+ach-positive-pay.view-rules.table.column.delete-action,Action for rule,,,Column name for delete action of rule
+ach-positive-pay.view-rules.table.account-name.label.sr-only,Account name,,,Label read out by screen reader when user navigates to account name line in Account Cell
+ach-positive-pay.view-rules.table.account-number.label.sr-only,Account Number,,,Label read out by screen reader when user navigates to account number line in Account Cell
+ach-positive-pay.view-rules.table.type.blocker,Blocker,,,Type of rule
+ach-positive-pay.view-rules.table.type.filter,Filter,,,Type of rule
+ach-positive-pay.view-rules.table.payment-type.label.sr-only,Payment type,,,Label read out by screen reader when user navigates to Payment Type line in Payment Type/SEC cell
+ach-positive-pay.view-rules.table.sec.label.sr-only,Standard Entry Class,,,Label read out by screen reader when user navigates to Standard Entry Class List line in Payment Type/SEC cell
+ach-positive-pay.view-rules.table.originator-name.label.sr-only,Originator name,,,Label read out by screen reader when user navigates to Originator name line in Originator cell
+ach-positive-pay.view-rules.table.originator-id.label.sr-only,Originator Id,,,Label read out by screen reader when user navigates to Originator Id line in Originator cell
+ach-positive-pay.view-rules.table.start-date.label.sr-only,Start Date,,,Label read out by screen reader when user navigates to Start Date line in Time Period cell
+ach-positive-pay.view-rules.table.expiration-date.label.sr-only,Expiration Date,,,Label read out by screen reader when user navigates to Expiration Date line in Time Period cell
+ach-positive-pay.view-rules.table.expiration-date.label.not-set.sr-only,Expiration Date. Not set,,,Label read out by screen reader when user navigates to Expiration Date line in Time Period cell and the date is not set
+ach-positivie-pay.view-rules.table.expired-badge.sr-only.text,This ACH Rule has expired,,,Sentence read out by screen reader only
+ach-positivie-pay.view-rules.table.expired-badge.text,Expired,,,Badge label indicating that the rule has expired (Expiration date is earlier than current date)
+ach-positive-pay.view-rules.loading,Loading Text,,,Loading text when rules are in loading state
+ach-positive-pay.view-rules.loading,Loading Text,,,Loading text when rules are in loading state
+ach-positive-pay.account-list.error-state.subtitle,Account list error state Subtitle,,,Subtitle for error state accounts
+ach-positive-pay.account-list.error-state.title,Account list error state Title,,,Title for error state accounts
+ach-positive-pay.account-list.default-error-state.subtitle,Account list error state Subtitle,,,Subtitle for error state accounts
+ach-positive-pay.account-list.default-error-state.title,Account list error state Title,,,Title for error state accounts
+ach-positive-pay.accounts.emptyState.title,Accounts list empty state title,,,Title for accounts list empty state
+ach-positive-pay.accounts.emptyState.subtitle,Accounts list empty state subtitle,,,Subtitle for accounts list empty state
+ach-positive-pay.view-rules.error-state.subtitle,Rules list error state subtitle,,,Subtitle for rules list error state
+ach-positive-pay.view-rules.unknown-empty-state.subtitle,Rules list empty state subtitle,,,Subtitle for rules list empty state
+ach-positive-pay.view-rules.unknown-error-state.title,Rules list error state title,,,Title for rules list error state
+ach-positive-pay.view-rules.empty-state-unfiltered.title,No ACH rules created,,,Rules list empty state title when loaded without any search or filter
+ach-positive-pay.view-rules.empty-state-unfiltered.subtitle,Create blocker or filter for fraud prevention.,,,Rules list empty state subtitle when loaded without any search of filter
+ach-positive-pay.view-rules.empty-state-filtered.title,No ACH rules found,,,Rules list empty state title when loaded with search or filter is applied
+ach-positive-pay.view-rules.empty-state-filtered.subtitle,You do not have any ACH rules to be displayed.<br>Try to adjust the search.,,,Rules list empty state subtitle when loaded with search or filter is applied
+ach-positive-pay.view-rules.empty-state-filtered.subtitle-details,You do not have any ACH rules to be displayed.,,,Rules list empty state subtitle when loaded with search or filter is applied
+positive-pay-common.exception-decision.error.message,Unknown error occurred.,,,Error message when submitting exception decision fails
+positive-pay-common.exception-decision.button.cancel,Cancel,,,Label for Cancel button on Exception Decision prompt dialog
+positive-pay-common.exception-errors.sr-only.exceptionError,A11y Exception error text,,,Exception error screen reader text for exception errors
+positive-pay-common.filters-container.filter-button.filter-applied,Label for Filter button when filters are used in the search,,,Button that toggles visibility of filters for view checks
+positive-pay-common.filters-container.button.filter-default,Label for Filter button,,,Button that toggles visibility of filters for view checks
+positive-pay-common.filters-container.filter-button.responsive-screen,Label for Filter button on small screen resolutions,,,Button that toggles visibility of filters for view checks
+positive-pay-common.filters-container.button.apply,Label for Apply filters button,,,Button applies filters for view checks search
+positive-pay-common.filters-container.button.close,Label for Close filters button,,,Button closes filters panel
+positive-pay-common.filters-container.button.clear-all,Label for Clear all filters button,,,Button resets all filters for view checks search
+positive-pay-common.filters-container.screen-reader-state.opened,Filters container is opened.,,,Announced when container is opened - Message for screen reader users
+positive-pay-common.filters-container.screen-reader-state.closed,Filters container is closed.,,,Announced when container is closed - Message for screen reader users
+positive-pay-common.pagination.sr-only-text,A11y Pagination Result,,,Pagination result text read by screen reader
+positive-pay-common.pagination-type.load-more,Load more,,,Load More button text
+positive-pay-common.load-more.sr-only-text,A11y Load More Result,,,Load More result text read by screen reader
+positive-pay-common.product-item.account-name.label.sr-only,Account name,,,Label read out by screen reader when user navigates to account name line in Product Item Component
+positive-pay-common.product-item.account-number.label.sr-only,Account Number,,,Label read out by screen reader when user navigates to account number line in Product Item Component
+positive-pay-common.view-details.account.account-balance.label.sr-only,Account Balance,,,Label read out by screen reader when user navigates to account balance line in Product Item Component
+positive-pay-common.sort-header.sr-only-text,"Table sorted by ${
+          this.bbSortable
+        }:columnName: in ${this.getAriaSortAttribute()}:order(asc, desc): order",,,A11y table sorting text - table sorted text read by screen reader
+ach-positive-pay-journey.server.error.forbidden.account,Insufficient user’s permission to account.,,,Insufficient user’s permission to account.
+ach-positive-pay-journey.server.error.invalid.arrangement.id,Invalid arrangement id.,,,Invalid arrangement id.
+ach-positive-pay-journey.server.error.parse.data,Invalid input data.,,,Invalid Message
+positive-pay-journey.server.error.subscription.multiple,This account has more than one Positive Pay subscription for checks enabled.,,,This account has more than one Positive Pay subscription for checks enabled. Please contact your system administrator.
+positive-pay-journey.server.error.subscription.required,This account does not have a Positive Pay ACH subscription.,,,This account does not have a Positive Pay ACH subscription.
+ach-positive-pay-journey.server.error.unknown.error,Unknown error.,,,Unknown error occurred
+positive-pay-common.server.error.internal.sever.error,Technical error occurred.,,,Technical error occurred
+positive-pay-journey.configuration.rejectReason.duplicateCheck,Duplicate check,,,Rejection Reason - Duplicate check
+positive-pay-journey.configuration.rejectReason.amountMismatch,Amount mismatch,,,Rejection Reason - Amount mismatch
+positive-pay-journey.configuration.rejectReason.payeeNameMismatch,Payee name mismatch,,,Rejection Reason - Payee name mismatch
+positive-pay-journey.configuration.rejectReason.voidedCheck,Voided check,,,Rejection Reason - Voided check
+positive-pay-journey.configuration.rejectReason.stoppedCheck ,Stopped check ,,,Rejection Reason - Stopped check 
+positive-pay-journey.configuration.rejectReason.checkWithStaleDate,Check with stale date,,,Rejection Reason - Check with stale date
+positive-pay-journey.configuration.rejectReason.checkNotFound,Check not found,,,Rejection Reason - Check not found
+positive-pay-journey.configuration.rejectReason.otherReason,Other reason,,,Rejection Reason - Other
+positive-pay-journey.view-checks.loading.sr-only-text,Loading Checks,,,A11y Loading Text for checks - Loading text read by screen reader
+positive-pay-journey.check-details.loading.sr-only-text,Loading Check Details,,,A11y Loading Text for check details - Loading text read by screen reader
+positive-pay-journey.view-exceptions.loading.sr-only-text,Loading Exceptions,,,A11y Loading Text for exceptions - Loading text read by screen reader
+positive-pay-journey.exception-details.loading.sr-only-text,Loading Exception Details,,,A11y Loading Text for exception details - Loading text read by screen reader
+positive-pay-journey.validation-errors.invalid-date-range-error,Please provide valid date range,,,Error message when date range is invalid
+ach-positive-pay-journey.server.error.duplicated.check,Duplicated ACH check,,,Duplicate checks
+ach-positive-pay-journey.server.error.payee.required,This account has Positive Pay with Payee match subscription. Payee name is mandatory.,,,This account has Positive Pay with Payee match subscription. Payee name is mandatory.
+positive-pay-journey.heading.title,Positive Pay checks title,,,Title for the journey heading
+positive-pay-journey.heading.button-text,Enter check,,,Title for button that opens modal with form
+positive-pay.tab.exceptions.count.message,# of active exceptions require managemenet,,,Message red by screen reader when user is focused on Exceptions tab
+positive-pay.tab.exceptions.count.error,Could not retrieve exceptions count,,,Message read by screen reader when retrieving active exceptions fail
+positive-pay-journey.tab.all-checks,All checks,,,"Title for tab with ""All checks"" checkList"
+positive-pay-journey.tab.exceptions,Exceptions,,,"Title for tab with ""Exceptions"" exceptionList"
+positive-pay-journey.check-status.sr-only,Status label,,,Text read by screen readers for status label
+positive-pay-journey.check-status.submitted,Submitted,,,Check status when check is submitted to the bank core
+positive-pay-journey.check-status.paid,Paid,,,Check status when check is paid by the bank core
+positive-pay-journey.check-status.exception,Exception,,,Check status when check has exception by the bank core
+positive-pay-journey.check-status.rejected,Rejected,,,Check status when check is rejected by the bank core
+positive-pay-journey.check-status.resolved,Resolved,,,Check status when exception check is resolved but not yet paid or rejected
+positive-pay-journey.check-type.sr-only,Check type label,,,Text read by screen readers for check type label
+positive-pay-journey.check-type.action.voided,Voided check #123,,,Type of check and check number
+positive-pay-journey.check-type.action.issued,Issued check #123,,,Type of check and check number
+positive-pay-journey.delete-check.modal.description,Delete confirmation,,,Modal asking users if they are sure they want to delete check.
+positive-pay-journey.delete-check.modal.delete-button,Delete,,,Button for delete check
+positive-pay-journey.delete-check.modal.cancel-button,Cancel,,,Button for canceling delete action
+positive-pay-journey.delete-check.success.notification.header,Check successfully deleted notification,,,Success notification header for deleted check
+positive-pay-journey.delete-check.error.notification.header,Check deletion error notification,,,Error notification header for delete check
+positive-pay-journey.delete-check.error.notification.message,Check deletion error notification message,,,Error notification message for delete check
+positive-pay-journey.view-check-details.deleteCheck.error.title,Unknown Error,,,Error message title that is displayed when server throws error while deleting submitted check
+positive-pay-journey.view-check-details.deleteCheck.error.message,Unknown Error Message,,,Message that is displayed when server throws error while deleting submitted check
+positive-pay-journey.view-check-details.heading.payee,Payee,,,Payee name heading displayed in check details
+positive-pay-journey.view-check-details.heading.issueDate,Issue date,,,Issue date heading displayed in check details
+positive-pay-journey.view-check-details.heading.amount,Amount,,,Amount heading displayed in check details
+positive-pay-journey.view-check-details.heading.checkingAccount,Checking account,,,Checking account heading displayed in check details
+positive-pay-journey.view-check-details.footer.resolve-exception-button,Resolve exception,,,Button for resolving check with exception
+positive-pay-journey.check-details.title,Check check,,,Title of the check details header in modal
+positive-pay-journey.check.details.sr-only.closeModal,A11y close modal button,,,Screen reader text for close icon button
+positive-pay-journey.check-details-summary.submitted.enteredBy,Entered by,,,Text label for the user who entered the check
+positive-pay-journey.check-details-summary.exception.raised,Raised,,,Text label for the exception raised date
+positive-pay-journey.check-details-summary.resolved.payDecision,Pay decision,,,Text label for the exception resolved to pay decision
+positive-pay-journey.check-details-summary.resolved.rejectDecision,Reject decision,,,Text label for the exception resolved to reject decision
+positive-pay-journey.check-details-summary.paidOrRejected.on,On,,,Text word prefixed to exception paid/rejected date
+positive-pay-journey.check-details-summary.paidOrRejected.on,On,,,Text word prefixed to exception paid/rejected date
+positive-pay-journey.check-details-summary.resolved.by,by,,,Text label for the exception resolved by user
+positive-pay-journey.check-details-summary.resolved.after,by,,,Text label for the exception resolved after cut off time
+positive-pay-journey.check-details-summary.rejectionReason,Reason,,,Text label for the rejection reason
+positive-pay-journey.exceptions.details.sr-only.exceptionDetails,A11y Exception details text,,,Exception details screen reader text to indicate exception details loaded
+positive-pay-journey.exceptions.details.exceptions-errors.label.raised,Raised On,,,Text label for exception raised date
+positive-pay-journey.exception.details.buttons.pay,Pay,,,Button label for pay exception check action
+positive-pay-journey.exception.details.buttons.reject,Reject,,,Button label for reject exception check action
+positive-pay-journey.exception-details.title,Check Exception,,,Title of the exception details header in modal
+positive-pay-journey.exceptions.details.sr-only.closeModal,A11y close modal button,,,Screen reader text for close icon button
+positive-pay-journey.exceptions-details.table.description,A11y Exception details description,,,Description for exception details table
+positive-pay-journey.exceptions-details.column.dataYouEntered,A11y Data you entered,,,Column name for issued check
+positive-pay-journey.exceptions-details.column.receivedCheck,A11y Received check,,,Column name for exception check
+positive-pay-journey.view-exception-details.issueCheck.heading.dataYouEntered,Data you entered,,,Heading displayed in user info card in issued check column
+positive-pay-journey.view-exception-details.exceptionCheck.heading.receivedCheck,Received check,,,Heading displayed in user info card in exception check column
+positive-pay-journey.view-exception-details.exceptionCheck.noUserText,Fallback text for user name,,,Text displayed inside user info card for exception check column
+positive-pay-journey.view-exception-details.issuedCheck.row.checkNumber,Issued check number,,,Check number heading displayed in issued check column
+positive-pay-journey.view-exception-details.row.heading.issueDate,Issued check issue date,,,Issue date heading displayed in issued check column
+positive-pay-journey.view-exception-details.row.heading.payeeName,Issued check payee name,,,Payee name heading displayed in issued check column
+positive-pay-journey.view-exception-details.row.heading.amount,Issued check amount,,,Amount heading displayed in issued check column
+positive-pay-journey.view-exception-details.row.heading.checkingAccount,Issued check checking account,,,Checking account heading displayed in issued check column
+positive-pay-journey.view-exception-details.user-info.text.by,By,,,Text word displayed when userFullName is provided in user info card
+positive-pay-journey.view-exception-details.user-info.text.on,On,,,Text word prefixed to check date in user info card
+positive-pay-journey.view-exception-details.user-info.text.at,At,,,Text word prefixed to check date time in user info card
+positive-pay.exception-decision.title.pay,Pay Check?,,,Title of the dialog asking user to confirm Pay decision for exception
+positive-pay.exception-decision.button.pay,Pay,,,Label for Pay button on Exception Decision prompt dialog
+positive-pay.exception-decision.confirmation-message.pay,Are you sure you want to pay this check?,,,Message displayed in a dialog asking user to confirm Pay decision for exception
+positive-pay.exception-decision.title.reject,Reject Check?,,,Title of the dialog asking user to confirm Pay decision for exception
+positive-pay.exception-decision.button.reject,Reject,,,Label for Reject button on Exception Decision prompt dialog
+positive-pay.exception-decision.confirmation-message.reject,Are you sure you want to reject this check?,,,Message displayed in a dialog asking user to confirm Reject decision for exception
+positive-pay.exception-decision.rejectionReasonDropdown.label,Rejection reason label,,,Label for rejection reason dropdown
+positive-pay.exception-decision.rejectionReasonDropdown.placeholder,Rejection reason placeholder,,,Placeholder for rejection reason dropdown
+positive-pay.exception-decision.submitted-notification.message,Check was processed successfully,,,Success notification message when exception decision is submitted
+positive-pay-exception-details.decision-form.rejectReason.required-error,Rejection reason is required,,,Error message when rejection reason is not selected
+positive-pay-journey.new-check.title,Enter Check,,,Title of the Enter Check form in modal
+positive-pay-journey.new-check.void-checkbox,Void this check,,,Label for checkbox to mark new check as void
+positive-pay-journey.new-check.checking-account,Checking Account label,,,Label for Checking account selector field
+positive-pay-journey.new-check.account-selector-placeholder,Select an account placeholder,,,Text displayed on empty Account Selector
+positive-pay-journey.new-check.checking-account.required-error,Checking account is required.,,,Error message when checking account is missing
+positive-pay-journey.new-check.check-number,Check number,,,Label for check number field
+positive-pay-journey.new-check.issue-date,Issue date,,,Label for issue date field
+positive-pay-journey.new-check.payee-label,Payee,,,Label for check's payee field
+positive-pay-journey.new-check.payee-placeholder,Enter name or select payee placeholder,,,Placeholder for the Payee input field
+positive-pay-journey.new-check.amount,Amount,,,Label for amount field
+positive-pay-journey.new-check.submit-button,Submit form,,,Button test for submitting new check
+positive-pay-journey.new-check.cancel-button,Cancel,,,Button test for canceling entry of new check
+positive-pay-journey.error.duplicate.check.title,Duplicate check Error,,,Message that is displayed when server throws duplicate check error
+positive-pay-journey.error.payee-missing.title,Payee name is mandatory Error,,,Message that is displayed when server throws error that payee is mandatory
+positive-pay-journey.error.multiple-subscriptions.title,Mutiple Positive Pay subscriptions error,,,Message that is displayed when server throws error for multiple subscriptions for given arrangements
+positive-pay-journey.error.internal-server.title,Internal Server Error,,,Message that is displayed when core is not available
+positive-pay-journey.error.title,Server Error,,,Message that is displayed when server throws error
+positive-pay-journey.new-check.check-number.required-error,Number is required.,,,Error message when check number is missing
+positive-pay-journey.new-check.check-number.pattern-error,Only numerical values allowed.,,,Error message when check number is not number
+positive-pay-journey.new-check.check-number.min-length-error,Minimum ${requiredLength}:requiredLength: digits required.,,,Error message when check number does not match min length validation
+positive-pay-journey.new-check.check-number.max-length-error,Maximum ${requiredLength}:requiredLength: digits required.,,,Error message when check number does not match min length validation
+positive-pay-journey.new-check.issue-date.required-error,Issue date is required.,,,Error message when issue date is missing
+positive-pay-journey.new-check.issue-date.invalid-date-error,Invalid date.,,,Error message when issue date is invalid date format
+positive-pay-journey.new-check.amount.required-error,Amount is required.,,,Error message when amount is missing
+positive-pay-journey.submitted-notification.header,Success,,,Success notification header when check is submitted to bank core
+positive-pay-journey.submitted-notification.message,Check was submitted successfully,,,Success notification message when check is submitted to bank core
+positive-pay-journey.view-checks.search-input-placeholder,Search checks placeholder,,,Placeholder displayed on search input box
+positive-pay-journey.view-checks.search-input-button-label,Search checks button label,,,Hidden label for search button alongside search input box
+positive-pay-journey.view-checks-filters.check-status.placeholder,Placeholder for Status filter,,,Text will be displayed when no value is selected
+positive-pay-journey.view-checks-filters.check-status.label,Label for Status filter,,,Label will be displayed above the select field
+positive-pay-journey.view-checks-filters.amount.label,Label for Amount range filter,,,Label will be displayed above two number input fields
+positive-pay-journey.view-checks-filters.amount-min.aria-label,Label for lower value of amount range,,,Label will be read by screen reader
+positive-pay-journey.view-checks-filters.amount-min.placeholder,Placeholder text for lower value field of amount range,,,Text is visible when no value is typed
+positive-pay-journey.view-checks-filters.amount-max.aria-label,Label for upper value of amount range,,,Label will be read by screen reader
+positive-pay-journey.view-checks-filters.amount-max.placeholder,Placeholder text for upper value field of amount range,,,Text is visible when no value is typed
+positive-pay-journey.view-checks-filters.amount.invalidAmountRange,Invalid amount range error.,,,Error message when min amount is greater than max amount
+positive-pay-journey.view-checks-filters.check-type.placeholder,Placeholder for Type filter (Void or Issued),,,Text will be displayed when no value is selected
+positive-pay-journey.view-checks-filters.check-type.label,Label for Type filter (Void or Issued),,,Label will be displayed above the select field
+positive-pay-journey.view-checks-filters.entry-date.label,Label for Entry date filter,,,Label will be displayed above the field
+positive-pay-journey.view-checks-filters.issue-date.label,Label for Issue date filter,,,Label will be displayed above the field
+positive-pay-journey.view-checks-filters.check-status.submitted,Submitted,,,Submitted status - Option of Status filter for issued checks view
+positive-pay-journey.view-checks-filters.check-status.paid,Paid,,,Paid status - Option of Status filter for issued checks view
+positive-pay-journey.view-checks-filters.check-status.rejected,Rejected,,,Rejected status - Option of Status filter for issued checks view
+positive-pay-journey.view-checks-filters.check-status.exception,Exception,,,Exception status - Option of Status filter for issued checks view
+positive-pay-journey.view-checks-filters.check-status.resolved,Resolved,,,Resolved status - Option of Status filter for issued checks view
+positive-pay-journey.view-checks-filters.check-type.all-checks,All,,,All issued checks - Label for default value for Type filter
+positive-pay-journey.view-checks-filters.check-type.issued,Issued,,,Non-void checks - Label for only issued checks value for Type filter
+positive-pay-journey.view-checks-filters.check-type.voided,Voided,,,Voided checks - Label for only voided checks value for Type filter
+positive-pay-journey.view-checks.list.payee.sr-only,Payee,,,Label for payee name in check list
+positive-pay-journey.view-checks.list.issue-date,Issued,,,Label for issue date of check in check list
+positive-pay-journey.view-checks.list.entry-date,Entered,,,Label for entry date of check in check list
+positive-pay-journey.view-checks.list.amount.sr-only,Amount label,,,Text read by screen readers for amount label
+positive-pay-journey.view-checks.table.caption,List of checks,,,Description for checks table
+positive-pay-journey.view-checks.column.status,Status,,,Column name for check status
+positive-pay-journey.view-checks.column.payee,Payee,,,Column name for payee name
+positive-pay-journey.view-checks.column.check-number,Check number,,,Column name for check number
+positive-pay-journey.view-checks.column.amount,Amount,,,Column name for amount on check
+positive-pay-journey.view-checks.column.type,Type,,,Column name to show if check is void or issued
+positive-pay-journey.view-checks.column.entry-date,Entry date,,,Column name for entry date of check
+positive-pay-journey.view-checks.column.issue-date,Issue date,,,Column name for issue date of check
+positive-pay-journey.view-checks.column.action,Action,,,Column name for doing action such as delete on check
+positive-pay-journey.view-checks.account-selector-placeholder,Select an account placeholder,,,Text displayed on empty Account Selector
+positive-pay-journey.view-checks.loading,Loading Text,,,Loading text when checks are in loading state
+positive-pay-journey.account-list.error-state.subtitle,Account list error state Subtitle,,,Subtitle for error state accounts
+positive-pay-journey.account-list.error-state.title,Account list error state Title,,,Title for error state accounts
+positive-pay-journey.accounts.emptyState.title,Accounts list empty state title,,,Title for accounts list empty state
+positive-pay-journey.accounts.emptyState.subtitle,"
+      Accounts list empty state subtitle",,,Subtitle for accounts list empty state
+positive-pay-journey.view-checks.error-state.subtitle,Check list error state subtitle,,,Subtitle for check list error state
+positive-pay-journey.view-checks.error-state.title,Check list error state title,,,Title for check list error state
+positive-pay-journey.view-checks.emptyState.title,Empty state checklist title,,,Empty state title when no checks available for the selected account
+positive-pay-journey.view-checks.emptyState.subtitle,"
+      Empty state checklist subtitle",,,Empty state subtitle when no checks available for the selected account
+positive-pay-journey.view-exceptions.cut-off-time.text,Cut-off time label,,,Text showing cutt-off time set by FI
+positive-pay-journey.view-exceptions.list.exception-errors.sr-only,Exception errors label,,,Text read by screen readers for exception errors label
+positive-pay-journey.view-exceptions.list.check-number.sr-only,Check number label,,,Text read by screen readers for check number label
+positive-pay-journey.view-exceptions.list.payee.sr-only,Payee name label,,,Text read by screen readers for payee name label
+positive-pay-journey.view-exceptions.list.account-name.sr-only,Account Name label,,,Text read by screen readers for account Name label
+positive-pay-journey.view-exceptions.list.account-details.sr-only,Account details label,,,Text read by screen readers for account details label
+positive-pay-journey.view-exceptions.list.issue-date,Issued,,,Label for issue date of exception in exception list
+positive-pay-journey.view-exceptions.list.amount.sr-only,Amount label,,,Text read by screen readers for amount label
+positive-pay-journey.view-exceptions.table.caption,List of exceptions,,,Description for exceptions table
+positive-pay-journey.view-exceptions.column.payee,Payee,,,Column name for exception payee
+positive-pay-journey.view-exceptions.column.checkingAccount,Checking account,,,Column name for exception checking account
+positive-pay-journey.view-exceptions.column.check-number,Check number,,,Column name for exception check number
+positive-pay-journey.view-exception.column.amount,Amount,,,Column name for amount on exception amount
+positive-pay-journey.view-exceptions.column.issue-date,Issue date,,,Column name for exception issue date
+positive-pay-journey.view-exceptions.column.exceptionErrors,Exception Errors,,,Column name for exception errors
+positive-pay-journey.view-exceptions.loading,Loading Text,,,Loading text when exceptions are in loading state
+positive-pay-journey.view-exceptions.error-state.subtitle,Exception list error state subtitle,,,Subtitle for exception list error state
+positive-pay-journey.view-exceptions.error-state.title,Exception list error state title,,,Title for exception list error state
+positive-pay-journey.view-exceptions.emptyState.title,Empty state exceptionList title,,,Empty state title when no exceptions available for the selected account
+positive-pay-journey.view-exceptions.emptyState.subtitle,"
+      Empty state exceptionList subtitle",,,Empty state subtitle when no exceptions available for the selected account
+ach-positive-pay-journey.server.error.forbidden.account,Insufficient user’s permission to account.,,,Insufficient user's permission to account.
+ach-positive-pay.configuration.frequency.new-rejection-reason,New Reason,,,Translation for New Rejection Reason
+ach-positive-pay.configuration.frequency.bi-weekly,Bi Weekly,,,Configuration for payment frequency of ACH filter rule - BiWeekly
+ach-positive-pay-journey.configuration.payment-type.ach-checking,ACH Checking,,,Configuration for payment type of ACH  rule - ACH Checking
+id,source message text,,,meaning - description
+id,source message text,,,"meaning - :source message text`;
+     * $localize`:description:source message text`;
+     * $localize`:"
+id,source message text,,,meaning - description
+id,source message text,,,"meaning - :source message text`;
+ * $localize`:description:source message text`;
+ * $localize`:"
+id,source message text,,,meaning - description
+myApp-homepage-welcome, Welcome!,,,"correct - Indicates that the user got the answer correct: Right!`;
+ * $localize `:movement|Button label for moving to the right: Right!`;
+ * ```
+ */
+export declare const MEANING_SEPARATOR = ""|"";
+/**
+ * The marker used to separate a message's custom ""id"" from its ""description"" in a metadata block.
+ *
+ * For example:
+ *
+ * ```ts
+ * $localize `:A welcome message on the home page"
